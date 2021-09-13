@@ -1,0 +1,5 @@
+our first docker container
+17  clear
+   18  docker container run --publish 80:80 --detach nginx
+   19  docker ps
+   20  docker images
